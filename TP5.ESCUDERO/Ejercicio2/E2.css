@@ -1,0 +1,17 @@
+input {
+    border: 2px solid black;
+    height: 30px;
+    width: 200px;
+    font-size: 20px;
+    transition: .5s;
+}
+
+input:hover {
+    border: 2px solid #e74c3c;
+}
+
+input:focus {
+    background-color: black;
+    font-size: 17px;
+    color: white;
+}
